@@ -1,0 +1,33 @@
+#alert-message {
+  position: fixed;
+  display: inline-block;
+  right: 40px;
+  bottom: 20px;
+  animation-name: fadeOut;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  z-index: 1000;
+}
+
+
+@keyframes fadeOut {
+
+  0% {
+    opacity: 1;
+  }
+
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 0;
+  }
+
+
+}
+.fadeOut {
+  animation-name: fadeOut;
+  animation-duration: 3s;
+}
